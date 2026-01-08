@@ -3,7 +3,7 @@ import React from 'react';
 const Footer: React.FC = () => {
   const handleNotImplemented = (e: React.MouseEvent) => {
     e.preventDefault();
-    alert("Will update for you");
+    alert("Call on 9373768026, and make it yours");
   };
 
   return (
@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-start gap-12">
           <div className="flex flex-col gap-8">
             <h2 className="text-6xl md:text-8xl font-display font-bold uppercase tracking-tighter">
-              CRAFT <br/>YOUR <span className="text-sanctum-orange">BODY</span>
+              CRAFT <br />YOUR <span className="text-sanctum-orange">BODY</span>
             </h2>
           </div>
-          
+
           <div className="grid grid-cols-2 gap-12 md:gap-24 text-sm tracking-widest uppercase text-white/60">
             <div className="flex flex-col gap-4">
               <h4 className="text-white font-bold">Connect</h4>

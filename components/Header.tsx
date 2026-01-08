@@ -19,7 +19,7 @@ const Header: React.FC = () => {
 
   const handleNavClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    alert("Will update for you");
+    alert("Call on 9373768026, and make it yours");
     setMobileMenuOpen(false);
   };
 
@@ -53,7 +53,7 @@ const Header: React.FC = () => {
         </div>
 
         {/* Mobile Toggle */}
-        <button 
+        <button
           className="md:hidden"
           onClick={() => setMobileMenuOpen(true)}
         >
@@ -69,13 +69,13 @@ const Header: React.FC = () => {
         className="fixed inset-0 z-[60] bg-sanctum-black text-white flex flex-col justify-center items-center"
         style={{ pointerEvents: mobileMenuOpen ? 'auto' : 'none' }}
       >
-        <button 
+        <button
           className="absolute top-6 right-6"
           onClick={() => setMobileMenuOpen(false)}
         >
           <X className="w-8 h-8 text-white" />
         </button>
-        
+
         <div className="flex flex-col gap-8 text-center">
           {NAV_ITEMS.map((item) => (
             <a
