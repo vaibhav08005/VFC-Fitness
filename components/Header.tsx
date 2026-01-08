@@ -23,6 +23,8 @@ const Header: React.FC = () => {
     setMobileMenuOpen(false);
   };
 
+
+
   return (
     <>
       <motion.nav
